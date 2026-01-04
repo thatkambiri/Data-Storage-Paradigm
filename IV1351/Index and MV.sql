@@ -17,7 +17,7 @@ WHERE study_year = '2025';
 
 
 
----------- MATERIALIZED VIEW FOR QUERY 2 AND 3
+---------- MATERIALIZED VIEW FOR QUERY 3
 CREATE MATERIALIZED VIEW mv_allocated_hours_per_teacher AS
 SELECT 
     ci.instance_id,
